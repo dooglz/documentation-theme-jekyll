@@ -22,7 +22,7 @@ $(document).ready(function(){
     });
 
 /* Set the location where mydoc_tooltips_source.json is. */
-var url = "tooltips.json";
+var url = "{{ '/assets/tooltips.json' | absolute_url }}"; 
 
 $.get( url, function( data ) {
 
