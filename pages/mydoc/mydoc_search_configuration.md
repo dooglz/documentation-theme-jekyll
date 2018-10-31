@@ -100,7 +100,7 @@ The \_includes/topnav.html file then makes use of these values:
             SimpleJekyllSearch.init({
                 searchInput: document.getElementById('search-input'),
                 resultsContainer: document.getElementById('results-container'),
-                dataSource: '{{ "search.json" }}',
+                dataSource: "{{ '/assets/search.json' | absolute_url }}",
                 searchResultTemplate: '<li><a href="{url}" title="{{page.title | replace: "'", "\"}}">{title}</a></li>',
     noResultsText: '{{site.data.strings.search_no_results_text}}',
             limit: 10,
