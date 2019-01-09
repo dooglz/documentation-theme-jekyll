@@ -77,6 +77,7 @@ defaults:
       search: true
       sidebar: home_sidebar
       topnav: topnav
+      presentationTheme: '/assets/revealJS/css/theme/white.css' 
   -
     scope:
       path: ""
