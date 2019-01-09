@@ -77,7 +77,6 @@ defaults:
       search: true
       sidebar: home_sidebar
       topnav: topnav
-      presentationTheme: '/assets/revealJS/css/theme/white.css' 
   -
     scope:
       path: ""
@@ -98,7 +97,11 @@ defaults:
       search: true
       sidebar: home_sidebar
       topnav: topnav
-
+  -
+    scope:
+      path: ""
+    values:
+      presentationTheme: '/assets/revealJS/css/theme/white.css' 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
