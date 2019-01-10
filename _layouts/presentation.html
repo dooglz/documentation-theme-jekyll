@@ -22,6 +22,9 @@
         link.href = window.location.search.match( /print-pdf/gi ) ? "{{ '/assets/revealJS/css/print/pdf.css' | absolute_url }}" : "{{ '/assets/revealJS/css/print/paper.css' | absolute_url }}";
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
+	<style type="text/css">
+		leftalign p { text-align: left; }
+	</style>
 </head>
 <body>
     <div class="reveal">
