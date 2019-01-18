@@ -279,9 +279,9 @@ body {
   border: black;
   border-bottom-style: solid; }
 
-.reaveal.slide {
+.reveal.slide {
   background-color: beige; }
 
-.slides {
+.reveal .slides {
   background: white;
   border: 2px solid black; }
