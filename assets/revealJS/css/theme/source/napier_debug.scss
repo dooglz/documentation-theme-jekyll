@@ -42,6 +42,9 @@ section.has-dark-background {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+.reveal pre code {
+    max-height: 700px;
+}
 
 .reveal h1 {
   color: $NapierRed;
