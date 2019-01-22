@@ -63,3 +63,18 @@ section.has-dark-background {
     background: white;
 	border: 2px solid black;
 }
+
+.leftalign p { text-align: left; }
+
+//Split
+.reveal .split h1 {
+   clear: both;
+}
+.reveal .split ul {
+  float: left;
+  width: 50%;
+}
+.reveal .split p {
+    float: right;
+}
+

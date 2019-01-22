@@ -278,3 +278,16 @@ body {
   text-align: right;
   border: black;
   border-bottom-style: solid; }
+
+.leftalign p {
+  text-align: left; }
+
+.reveal .split h1 {
+  clear: both; }
+
+.reveal .split ul {
+  float: left;
+  width: 50%; }
+
+.reveal .split p {
+  float: right; }
