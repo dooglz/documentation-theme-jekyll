@@ -46,8 +46,13 @@
                 40: 'next',
                 38: 'prev'
             },
-			pdfSeparateFragments: false,
+            math: {
+              mathjax: "{{ '/assets/revealJS/plugin/math/mathjax.js' | absolute_url }}",
+              config: 'TeX-AMS_HTML-full'
+            },
+            pdfSeparateFragments: false,
             dependencies: [
+                { src: "{{ '/assets/revealJS/plugin/math/math.js' | absolute_url }}", async: true }
                 { src: "{{ '/assets/revealJS/plugin/markdown/marked.js' | absolute_url }}" },
                 { src: "{{ '/assets/revealJS/plugin/markdown/markdown.js' | absolute_url }}" },
                 { src: "{{ '/assets/revealJS/plugin/notes/notes.js' | absolute_url }}", async: true },
