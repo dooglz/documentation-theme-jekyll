@@ -61,14 +61,16 @@ section.has-dark-background {
 .leftalign p { text-align: left; }
 
 //Split
+//Split
 .reveal .split h1 {
    clear: both;
 }
-.reveal .split ul {
+
+.reveal .split > ul {
   float: left;
   width: 50%;
 }
-.reveal .split p {
+.reveal .split  > p {
     float: right;
 }
 

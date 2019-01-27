@@ -73,11 +73,12 @@ section.has-dark-background {
 .reveal .split h1 {
    clear: both;
 }
-.reveal .split ul {
+
+.reveal .split > ul {
   float: left;
   width: 50%;
 }
-.reveal .split p {
+.reveal .split  > p {
     float: right;
 }
 
